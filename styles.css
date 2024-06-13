@@ -1,11 +1,119 @@
-.banner-img{
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+.banner-img {
     position: relative;
     text-align: center;
-    color: white;
 }
-.banner-text{
+
+#banner {
+    filter: brightness(60%);
+}
+
+.banner-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    /* font-size: 45px; */
+}
+
+.font_size {
+    font-size: 45px;
+}
+
+.red_color {
+    color: red;
+}
+
+.Happy {
+    font-size: 30px;
+}
+
+#new_year_img {
+    margin: 45px;
+    padding: 35px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.image2 {
+    height: 500px;
+    width: 500px;
+}
+
+.display {
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.bg_color {
+    background-color: cornsilk;
+}
+
+.input_email {
+    width: 340px;
+    height: 40px;
+    border: none;
+    padding: 0 25px;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    outline: none;
+}
+
+.Subscribe {
+    position: relative;
+    left: -5px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 0px 25px 25px 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: none;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone_img {
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+.footer_img {
+    border-radius: 50%;
+    height: 30px;
+    padding: 10px;
+}
+
+#social_media {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    
+
 }
