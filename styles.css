@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 20px;
+    margin: 30px;
 }
 
 .banner-img {
@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-#banner {
+.banner {
     filter: brightness(60%);
 }
 
@@ -21,7 +21,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    /* font-size: 45px; */
 }
 
 .font_size {
@@ -43,12 +42,61 @@ body {
     align-items: center;
 
 }
+.bg_image2{
+    background-image: url(resources/Vectorrr.png);
+}
+.Welcome_party{
+    padding: 20px;
+    border-radius: none;
+}
+.welcome_text{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+    padding: 45px;
+}
 
 .image2 {
     height: 500px;
     width: 500px;
 }
-
+#join_now{
+    background-image: linear-gradient(to bottom, rgb(253, 237, 171), white);
+    padding: 30px;
+}
+.new_park{
+    align-items: center;
+    text-align: center;
+}
+span{
+    color: red;
+}
+.new_park_bg{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.ellipse{
+    height: 150px;
+    width: 150px;
+    border: 8px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+.coming_new_year{
+    align-items: center;
+}
+.pad{
+    padding: 20px;
+    font-size: 15pxpx;
+}
+.happy_new{
+    height:50px;
+    width: 50px;
+}
 .display {
     display: flex;
     /* gap: 10px; */
