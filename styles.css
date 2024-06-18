@@ -3,6 +3,10 @@
 }
 
 body {
+    margin: 0px;
+}
+section{
+    padding: 20px;
     margin: 30px;
 }
 
@@ -69,9 +73,7 @@ body {
     align-items: center;
     text-align: center;
 }
-span{
-    color: red;
-}
+
 .new_park_bg{
     background-color: red;
     color: white;
@@ -97,9 +99,35 @@ span{
     height:50px;
     width: 50px;
 }
+span{
+    color: red;
+}
+.group_image{
+    align-items: center;
+}
+.group44{
+    position: relative;
+    right: -15%;
+    height: 400px;
+    width: auto;
+    
+}
+.group75{
+    position: relative;
+    bottom: -150px;
+    left: 50px;
+    height: 400px;
+    width: auto;
+}
+.rectangle1{
+    height: 400px;
+    width: 300px;
+}
+.rectangle2{
+    width: 100%;
+}
 .display {
     display: flex;
-    /* gap: 10px; */
     justify-content: space-between;
     margin-top: 10px;
 
