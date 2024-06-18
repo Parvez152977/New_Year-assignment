@@ -12,6 +12,7 @@ section{
 .banner-img {
     position: relative;
     text-align: center;
+    width: 100%;
 }
 
 .banner {
